@@ -32,7 +32,7 @@ def calculate_final_details(initial_total):
 
 # --- Streamlit App Interface ---
 st.set_page_config(page_title="IKEA Quick Calculator", layout="centered")
-st.title("IKEA Simple Order Calculator 🛒")
+st.title("IKEA Order Billing 🛒")
 st.header("Enter Quantities Purchased:")
 col1, col2 = st.columns(2)
 with col1:
